@@ -47,7 +47,7 @@ const DetailProducts = () => {
 
   return (
     <div className="grid gap-8 md:grid-cols-3">
-      <div className="md:col-span-2">
+      <div className="md:col-span-2 overflow-x-auto">
         <CartTable />
       </div>
       <Resume />
