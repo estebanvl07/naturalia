@@ -1,0 +1,312 @@
+[
+  {
+    "id": 1,
+    "name": "CAFÉ VERDE CAFETTOLIO",
+    "price": {
+      "unity": 89900,
+      "two_unity": 134900,
+      "three_unity": 179900
+    },
+    "images": ["/cafe_verde/1.png", "/cafe_verde/2.png"],
+    "rate": 4.6,
+    "category": "Bebida",
+    "reviews": 124,
+    "isNew": false,
+    "description": "El café verde deriva de los granos de café crudos o sin tostar. Suplementos basados en este extracto se han hecho populares en los últimos años ya que los investigadores han descubierto que contienen muchos componentes beneficiosos.",
+    "discount": 0,
+    "detail": {
+      "ingredients": "CAFE 100% PURO",
+      "content": "350 gramos",
+      "presentation": "BOLSA"
+    },
+    "use_mode": [
+      "Poner un vaso de agua a hervir una vez este hirviendo apagar la estufa, agregar una cucharada al raz de Café Verde Caffeto y revolver, dejar reposar por 7 a 10 minutos, colar y servir, tomar caliente o frio como desee. Para endulzar a la bebida puede agregar miel o azúcar natural (splenda), si le quiere agregar sabor puede ponerle clavitos, canela, limón, jengibre o naranja. Se toma diariamente 30 minutos antes del desayuno, almuerzo y cena. Si sufre de colon irritable o gastritis, tomar 30 minutos después del desayuno y las otras 2 tomas si son 30 minutos antes."
+    ],
+    "cautions": [
+      "No apto para personas con arritmia cardiaca",
+      "No pueden tomarlo personas con úlceras",
+      "No pueden tomarlo mujeres en estado de lactancia",
+      "No pueden tomarlo mujeres en embarazo"
+    ],
+    "questions": [
+      {
+        "quest": "¿CUÁNTO PUEDE BAJAR CON UNA BOLSA DE CAFE VERDE?",
+        "response": "De 2 A 3 kilos promedio en un mes, pero todos los organismos son diferentes, por lo general el producto más que bajar de peso ayuda muchísimo para disminuir depósitos grasos, viendo así primero resultados bajando tallas y posteriormente peso."
+      },
+      {
+        "quest": "¿CUÁNTO DURA UN SOBRE?",
+        "response": "Con 2 tomas al día (almuerzo y cena), 30 Dias."
+      },
+      {
+        "quest": "¿SE DEBE HACER DIETA?",
+        "response": "Es muy recomendado purgarse antes de iniciar las tomas de café verde, Los 3 primeros días evitar los lácteos, Evitar los carbohidratos en la noche"
+      },
+      {
+        "quest": "¿POR QUÉ SE BAJA TAN RÁPIDO?",
+        "response": "El ácido CLOROGENICO presente en el café verde mejora las funciones de la hormona quema grasa adiponectina. El café nos da saciedad y empezamos a comer menos y el cuerpo empieza a tomar la energía de los depósitos grasos, centrándose en la quema de éstos, por lo tanto, se puede bajar antes de medidas que de peso."
+      },
+      {
+        "quest": "¿CUÁL ES LA DIFERENCIA ENTRE EL CAFÉ “COMÚN” Y EL VERDE?",
+        "response": "Básicamente el tipo de tratamiento que reciben. El primero se tuesta y el segundo se deja tal y como está, es decir, como se extrae de la planta."
+      },
+      {
+        "quest": "",
+        "response": ""
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "CALOSTRO BOVINO",
+    "price": {
+      "unity": 85000,
+      "two_unity": 132000,
+      "three_unity": 170000
+    },
+    "images": [
+      "/calostro_bovino/1.png",
+      "/calostro_bovino/2.png",
+      "/calostro_bovino/3.png"
+    ],
+    "rate": 4.5,
+    "category": "Suplementos",
+    "reviews": 56,
+    "isNew": false,
+    "description": "El calostro es un alimento en polvo que fortalece y regula el sistema inmunológico, aportando beneficios de antienvejecimiento, ofrece protección contra invasiones de bacterias, virus, hongos y otros organismos causantes de enfermedades. Además, puede destruir los agentes cancerígenos y otras toxinas del ambiente antes de que perjudiquen al cuerpo, protegiéndolo de los radicales libres.",
+    "discount": 0,
+    "detail": {
+      "ingredients": "Quinoa, Malta, Colágeno hidrolizado, Calostro bovino, Hongo shiitake, Omea 3, 6 y 9, vitaminas A, C, E, B1, B2, Niacina y Biotina",
+      "content": "700 gr",
+      "presentation": "TARRO"
+    },
+    "use_mode": [
+      "Disuelva una cucharada dosificadora (equivalente a 20g) en un vaso de Agua o Jugo."
+    ],
+    "cautions": [
+      "Manténgase fuera del alcance de los niños.",
+      "Descontinúe su uso, si aparece algún signo de irritación y consulte a su médico."
+    ],
+    "questions": []
+  },
+  {
+    "id": 3,
+    "name": "COLI PLUS - ALIMENTO DIARIO",
+    "price": {
+      "unity": 67900,
+      "two_unity": 101850,
+      "three_unity": 135800
+    },
+    "images": ["/coliplus/1.png", "/coliplus/2.png"],
+    "rate": 4,
+    "category": "Salud Digestiva",
+    "reviews": 123,
+    "isNew": false,
+    "description": "una mezcla de ingredientes naturales que te ayudan con los gases o hinchazón abdominal, a tener un colon limpio y sin estreñimiento, transforma tu intestino perezoso en uno más activo y regulado.",
+    "discount": 0,
+    "detail": {
+      "ingredients": "Contiene Linaza, Espirulina, Flor de Jamaica, Semillas de chía, Pitaya, Alcachofa, Noni, Té verde, Salvado de trigo, Té verde.",
+      "content": "450 GRAMOS",
+      "presentation": "TARRO PLÁSTICO. INCLUYE CUCHARA MEDIDORA."
+    },
+    "use_mode": [
+      "Mezclar 1 cucharada medidora en un vaso de agua al clima o tibia.",
+      "En la mañana tomar en ayunas.",
+      "En la noche, 20 minutos después de la cena o antes de dormir."
+    ],
+    "cautions": [
+      "No consumir en estado de embarazo y/o lactancia.",
+      "Menores de 12 años en caso de inflamaciones gástricas o intestinales NO  lo pueden consumir."
+    ],
+    "questions": [
+      {
+        "quest": "¿En cuánto tiempo hace efecto?",
+        "response": "Resultados desde la primera dosis de consumo."
+      },
+      {
+        "quest": "¿Tengo que hacer alguna dieta?",
+        "response": "No, pero se recomienda suspender el consumo de lácteos."
+      },
+      {
+        "quest": "¿Cuántas veces al día?",
+        "response": "Según sus necesidades, es recomendado un mínimo de dos dosis."
+      },
+      {
+        "quest": "Tengo una bebé de un año ¿puedo consumirlo?",
+        "response": "Si estas en proceso de lactancia NO puedes consumirlo"
+      },
+      {
+        "quest": "¿Ayuda a bajar de peso?",
+        "response": "Si, ya que elimina la grasa mala localizada en la zona abdominal. Si deseas eliminar unos cuantos kilos de más te recomiendo combinarlo con otros buenos hábitos."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "RTAFULL",
+    "price": {
+      "unity": 75900,
+      "two_unity": 114500,
+      "three_unity": 151800
+    },
+    "images": ["/rtafull/1.png", "/rtafull/2.png"],
+    "rate": 4,
+    "category": "Energizante",
+    "reviews": 214,
+    "isNew": false,
+    "description": "Concentrado para preparar bebida de Té verde con Flor de Jamaica y Perejil. Complemento nutricional.",
+    "discount": 0,
+    "detail": {
+      "ingredients": "Agua purificada, Té Verde (camellia sinensis), flor de Jamaica, perejil, alcachofa, berenjena, ajo, apio (apium graveolens), goma xanthan (espesante), sorbato de potasio (preservante), benzoato de sodio (preservante), con sabor idéntico al natural a menta, sucralosa y/o Stevia (edulcorante artificial). Este producto es elaborado en una planta de fabrica alimentos que contiene avena, leche, soya y/o sus derivados.",
+      "content": "500 mL",
+      "presentation": "BOTELLA"
+    },
+    "use_mode": [
+      "Para obtener una bebida se puede disolver 30 mL o copa dosificadora en un vaso con agua de 240 mL. No necesita endulzar. Consumir 2 ó 3 veces al día.",
+      "También se puede consumir el producto directamente la porción dosificada 30 mL sin disolver en agua. Consumir 2 ó 3 veces al día."
+    ],
+    "cautions": [
+      "Producto NO recomendado para niños",
+      "No exceder la dosificación recomendada.",
+      "Mantener en un lugar fresco y seco."
+    ],
+    "questions": [
+      {
+        "quest": "¿Con qué frecuencia se debe de tomar RTAFULL?",
+        "response": "Se puede tomar entre 1 y 2 veces en el día, preferiblemente en la mañana."
+      },
+      {
+        "quest": "¿Una embarazada lo puede consumir?",
+        "response": "Debe consultar con el ginecólogo o médico tratante."
+      },
+      {
+        "quest": "¿Este producto puede remplazar el líquido con el que se comen las comidas?",
+        "response": "Se puede diluir una cucharada en una tasa de agua (200 ml) y tomarlo como sobremesa."
+      },
+      {
+        "quest": "¿Cuánto es el tiempo mínimo para ver resultados con el uso continuado del producto?",
+        "response": "Depende de cada persona, se han observado mejoras significativas a partir de los 2 meses de consumo entre 1 y 2 veces al día, adicionalmente con buenos hábitos alimentarios y de vida contribuyen a una mejora de los problemas de salud."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "GOMAS MASTICABLES",
+    "price": {
+      "unity": 75900,
+      "two_unity": 114500,
+      "three_unity": 151800
+    },
+    "images": ["/c4lm/1.png", "/c4lm/2.png"],
+    "rate": 4,
+    "category": "Suplementos",
+    "reviews": 356,
+    "isNew": false,
+    "description": "Ayudan a mejorar la calidad del sueño, ayudándote a disfrutar de un descanso más profundo y reparador. Ayudan a reducir el estrés y la ansiedad, factores que a menudo contribuyen a los problemas de sueño.",
+    "discount": 0,
+    "detail": {
+      "ingredients": "GOMAS MASTICABLES CON PIMIENTA NEGRA, SEMILLAS DE AJONJOLÍ, TÉ VERDE CITRATO MAGNESIO CITRATO DE ZINC SABOR ARTIFICIAL E IDÉNTICO AL NATURAL A UVA.",
+      "content": "30 unidades 90 g",
+      "presentation": "FRASCO"
+    },
+    "use_mode": ["Consumir 2 gomitas al día."],
+    "cautions": [
+      "Almacenar por debajo de los 25 grados . Después de destaparlos guardar en la nevera para evitar alteraciones en el producto y consumir en el menor tiempo posible."
+    ],
+    "questions": []
+  },
+  {
+    "id": 6,
+    "name": "MEGAMAC POTENCIA Y ENERGÍA",
+    "price": {
+      "unity": 85000,
+      "two_unity": 132000,
+      "three_unity": 170000
+    },
+    "images": ["/megamac/1.png", "/megamac/2.png", "/megamac/3.png"],
+    "rate": 4,
+    "category": "Suplementos",
+    "reviews": 645,
+    "isNew": false,
+    "description": "Gracias a ingredientes como la maca, el borojó, hierro y el chontaduro, aportan antioxidante, ayudan a incrementar la energía, aumenta la potencia sexual, fortalece el sistema inmunológico, reduciendo la fatiga y la debilidad.",
+    "discount": 0,
+    "detail": {
+      "ingredients": "Continen maltodextrina, con maca, proteína de suero, proteína aislada de soya, chontaduro y borojó; adicionado de vitaminas: A, B1, B2, B6, Niacina, Hierro, Magnesio y Zinc.",
+      "content": "700 gramos",
+      "presentation": "TARRO"
+    },
+    "use_mode": [
+      "Mezcle dos (2) cucharadas en una vaso de Leche, Agua o Jugo, por 3 minutos"
+    ],
+    "cautions": ["No tiene contraindicaciones, es natural."],
+    "questions": []
+  },
+  {
+    "id": 7,
+    "name": "COLÁGENO HIDROLIZADO TIPO 1 100% BOVINO",
+    "price": {
+      "unity": 77000,
+      "two_unity": 112000,
+      "three_unity": 154000
+    },
+    "images": ["/colageno/1.png", "/colageno/2.png"],
+    "rate": 4,
+    "category": "Ciudado de piel",
+    "reviews": 180,
+    "isNew": false,
+    "description": "El colágeno hidrolizado puede ayudar a fortalecer las articulaciones y así combatir el dolor causado por enfermedades como la osteoartritis.",
+    "discount": 0,
+    "detail": {
+      "ingredients": "COLÁGENO BOVINO 100% PURO",
+      "content": "180 g",
+      "presentation": "TARRO"
+    },
+    "use_mode": [
+      "Disuelve una cucharadita medidora con la bebida de tu preferencia, de preferencia que sea bebida caliente, mézclala bien hasta que quede disuelta. Tómalo 2 veces por día en la mañana y en la noche."
+    ],
+    "cautions": [
+      "Mantener fuera del alcance de los niños",
+      "No exceder la dosificación recomendada",
+      "Mantener en un lugar fresco y seco"
+    ],
+    "questions": [
+      {
+        "quest": "¿En qué momento veo los efectos de consumirlo?",
+        "response": "Cada cuerpo asimila de forma diferente los componentes que ingresan a él. Hemos visto testimonios con efectos a los 5 días, así como también otros en más largo plazo, también hay que tener en cuenta, que muchas veces tardamos en evidenciar sus efectos, como en cabello o piel, porque primero esta nutrición se está llevando a cabo a nivel interno"
+      },
+      {
+        "quest": "¿Cuánto tiempo se puede tomar colágeno?",
+        "response": "La organización mundial para la salud dice, que después de los 25 años deberías tomarlo de por vida. Si tienes algún problema que la toma de colágeno mejore su condición, te recomendamos no dejar de tomarlo. Si se deja de tomar a los 15 días se pierden los efectos favorables de su consumo."
+      },
+      {
+        "quest": "¿Cuánto dura un tarro de 180gramos?",
+        "response": "Su consumo es de 2 veces por día, por lo general dura 45 días."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "LITEPLEX",
+    "price": {
+      "unity": 75900,
+      "two_unity": 114500,
+      "three_unity": 151800
+    },
+    "images": ["/liteplex/1.png", "/liteplex/2.png"],
+    "rate": 4,
+    "category": "Suplementos",
+    "reviews": 204,
+    "isNew": false,
+    "description": "Concentrado para preparar bebida de Té Verde variedad con Jengibre y Limón.",
+    "discount": 0,
+    "detail": {
+      "ingredients": "Agua purificada, té verde (camellia sinensis), jengibre, limón, perejil, albahaca, hierbabuena, goma xanthan (espesante), sorbato de potasio (preservante), benzoato de sodio (preservante), sabor identico al natural (menta, manzanilla), sucralosa y/o stevia (edulcorante artificial). Este producto es elaborado en una planta que fabrica alimentos que contiene avena, leche, soya y/o sus derivados.",
+      "content": "500 mL",
+      "presentation": "FRASCO"
+    },
+    "use_mode": [
+      "Disuelva 2 cucharadas o una copa dosificadora (incluida en la tapa del envase) equivalente a 30 mL en un vaso 240mL de agua o jugos de frutas (no ácidas). Consumir inmediatamente."
+    ],
+    "cautions": ["Para adultos y niños mayores de 4 años"],
+    "questions": []
+  }
+]
