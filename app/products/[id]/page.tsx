@@ -59,9 +59,7 @@ export default function ProductDetailPage({
     if (isExist) {
       const prevProducts = productsCart.filter((p) => p.id !== product.id);
       setProducts(() => [...prevProducts, data]);
-      toast("Producto agregado al carrito", {
-        icon: "success",
-      });
+      toast.success("Producto agregado al carrito");
       return;
     }
 

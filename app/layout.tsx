@@ -4,6 +4,7 @@ import { Montserrat } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { CartProvider } from "./_context/cart";
+import { Toaster } from "sonner";
 
 export const metadata: Metadata = {
   title: "v0 App",
@@ -28,6 +29,7 @@ export default function RootLayout({
           <main className="flex-1">
             <CartProvider>
               <Header />
+              <Toaster />
               {children}
               <Footer />
             </CartProvider>
