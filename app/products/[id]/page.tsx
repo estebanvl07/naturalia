@@ -18,7 +18,8 @@ import {
 import { useCartContext } from "../../_context/cart";
 import Product from "@/components/Product";
 import { CartItem } from "@/types/cart/cart.types";
-import { getPriceByQuantity } from "@/app/cart/page";
+import { getPriceByQuantity } from "@/app/cart/_components/DetailProducts";
+import { toast } from "sonner";
 
 export default function ProductDetailPage({
   params,
@@ -58,7 +59,9 @@ export default function ProductDetailPage({
     if (isExist) {
       const prevProducts = productsCart.filter((p) => p.id !== product.id);
       setProducts(() => [...prevProducts, data]);
-      alert("Producto Agregado");
+      toast("Producto agregado al carrito", {
+        icon: "success",
+      });
       return;
     }
 
@@ -304,22 +307,22 @@ export default function ProductDetailPage({
           </TabsList>
           <TabsContent value="use" className="pt-4">
             <ul className="list-decimal px-6">
-              {product.use_mode.map((text) => (
-                <li>{text}</li>
+              {product.use_mode.map((text, i) => (
+                <li key={i}>{text}</li>
               ))}
             </ul>
           </TabsContent>
           <TabsContent value="cautions" className="pt-4">
             <ul className="list-disc px-6">
-              {product.cautions.map((text) => (
-                <li>{text}</li>
+              {product.cautions.map((text, i) => (
+                <li key={i}>{text}</li>
               ))}
             </ul>
           </TabsContent>
           <TabsContent value="questions" className="pt-4">
             <ul className="px-6 gap-x-20 gap-y-4 grid grid-cols-1 md:grid-cols-2">
-              {product.questions.map(({ quest, response }) => (
-                <li className="mb-2">
+              {product.questions.map(({ quest, response }, i) => (
+                <li className="mb-2" key={i}>
                   <h5 className="font-medium uppercase">{quest}</h5>
                   <p>{response}</p>
                 </li>
@@ -346,7 +349,9 @@ export default function ProductDetailPage({
             {products &&
               products
                 .slice(0, 4)
-                .map((relatedProduct) => <Product {...relatedProduct} />)}
+                .map((relatedProduct) => (
+                  <Product key={relatedProduct.id} {...relatedProduct} />
+                ))}
           </div>
         </div>
       </section>

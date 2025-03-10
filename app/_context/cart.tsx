@@ -6,6 +6,7 @@ import {
   Dispatch,
   SetStateAction,
   useContext,
+  useEffect,
   useState,
 } from "react";
 
@@ -24,12 +25,15 @@ const CartContext = createContext<Cart>({
 });
 
 export const CartProvider = ({ children }: { children: React.ReactNode }) => {
-  const storageProducts = JSON.parse(
-    localStorage.getItem("n_products") as any
-  ) as CartItem[];
-
-  const [products, setProducts] = useState<CartItem[]>(storageProducts || []);
+  const [products, setProducts] = useState<CartItem[]>([]);
   const [total, setTotal] = useState<number>(0);
+
+  useEffect(() => {
+    const storageProducts = JSON.parse(
+      localStorage.getItem("n_products") || "[]"
+    ) as CartItem[];
+    setProducts(storageProducts);
+  }, []);
 
   return (
     <CartContext.Provider value={{ products, setProducts, total, setTotal }}>
